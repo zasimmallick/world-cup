@@ -24,6 +24,7 @@ header{
     justify-content: space-around;
     
     
+    
 }
 .first-text{
     color: #FFFFFF;
@@ -41,6 +42,7 @@ header{
     font-size: 70px;
     margin-top: 10px;
     text-align: left;
+    margin-left: 50px;
     
     
 }
@@ -48,10 +50,11 @@ header{
     font-weight: 400;
     font-size: 16px;
     margin-top: 20px;
+    margin-left: 50px;
 }
 
 .link-button{
-    width: 137px;
+    width: 177px;
     height: 36px;
     background: #DD0000;
     border-radius: 5px;
@@ -59,8 +62,10 @@ header{
     text-align: center;
     font-weight: 400;
     color: white;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 5px 5px;
+    margin-left: 50px;
+    
     
    
 }
@@ -102,11 +107,13 @@ main styles
 
     color: black;
 }
+
 #all{
     background-color: #FFFFFF;
 }
 #blog{
     background-color: #DD0000;
+    color: #FFFFFF;
 }
 
 /* transfers style */
@@ -119,6 +126,7 @@ main styles
     margin-left: 100px;
     margin-top: 94px;
     margin-right: 100px;
+    margin-bottom: 100px;
 }
 .transfers{
     padding: 10px;
@@ -127,7 +135,7 @@ main styles
 }
 
 
-img{
+.blog-img img{
         width: 312px;
         height: 175px;
 }
@@ -151,6 +159,66 @@ img{
     align-items: center;
     justify-content: space-between;
 }
+
+/*--------- 
+section-3 styles
+ -------------*/
+ .section-3{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    margin-left: 100px;
+    margin-top: 94px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+ }
+ .matchs{
+    padding: 30px;
+   border-radius: 15px;
+   margin: 30px;
+ }
+
+ h4{
+   margin-top: 10px;
+   margin-bottom: 1px;
+   margin-left: 115px;
+ }
+ 
+
+ .match-img img{
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+   
+    margin-top: 35px;
+    width: 93.04px;
+    height: 56.18px;
+}
+ #match{
+    background-color: #DD0000;
+    color: #FFFFFF;
+ }
+ #title{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+   
+    
+ }
+ #p{
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    
+   
+   
+ }
+ 
 
 /* footer styles */
     h1{
@@ -187,9 +255,16 @@ img{
         
         
     }
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        margin-left: 500px;
+        margin-right: 550px;
+    }
     footer{
         background: #161616;
-      width: 1600px;
+      width: 1510px;
       height: 444px;
       
     
