@@ -175,6 +175,7 @@ section-3 styles
     margin-bottom: 100px;
  }
  .matchs{
+    display: flex;
     padding: 30px;
    border-radius: 15px;
    margin: 30px;
@@ -188,10 +189,10 @@ section-3 styles
  
 
  .match-img img{
-    display: inline;
-    display: flex;
+   
+     display: flex; 
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     margin-left: 80px;
    
     margin-top: 35px;
@@ -269,3 +270,26 @@ section-3 styles
       
     
     }
+    /* -----------------
+   Media Queries
+------------------- */
+
+/* tablet devices */
+
+    @media only screen and (min-width:768px) and (max-width:1023px) {
+        
+ .section-1, .section-2,.section-3, .menu-bar{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+    }
+     
+
+    /* mobile device */
+     @media only screen and (max-width:767px) {
+        .section-1, .section-2, .section-3{
+        
+            grid-template-columns: repeat(1, 1fr);
+        }
+        
+     }
